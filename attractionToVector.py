@@ -1,0 +1,178 @@
+from gensim.models import KeyedVectors
+import pandas as pd
+import numpy as np
+
+# Pre-trained Word2Vec model
+model = KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+df = pd.read_csv("/Users/galaminoach/Desktop/clusteringProject/attructions.csv")
+
+# set of attractions
+attractions_set = {
+        'Kabul', 'Bamiyan Valley', 'Herat', 'Tirana', 'Berat', 'Butrint', 'Algiers', 'Tassili n\'Ajjer', 'Oran',
+        'Andorra la Vella', 'Grandvalira Ski Resort', 'Vallnord', 'Luanda', 'Kalandula Falls', 'Namib Desert',
+        'Buenos Aires', 'Iguazu Falls', 'Perito Moreno Glacier', 'Yerevan', 'Tatev Monastery', 'Lake Sevan',
+        'Sydney Opera House', 'Great Barrier Reef', 'Uluru', 'Vienna', 'Salzburg', 'Innsbruck', 'Baku', 'Gobustan National Park',
+        'Sheki', 'Manama', 'Bahrain Fort', 'Al-Fateh Grand Mosque', 'Dhaka', 'Sundarbans National Park', 'Cox\'s Bazar',
+        'Bridgetown', 'Bathsheba', 'Harrison\'s Cave', 'Minsk', 'Brest Fortress', 'Mir Castle', 'Brussels', 'Bruges', 'Ghent',
+        'Ambergris Caye', 'Belize Barrier Reef', 'Mayan Ruins', 'Cotonou', 'Pendjari National Park', 'Ganvie Village',
+        'Thimphu', 'Paro', 'Punakha', 'La Paz', 'Salar de Uyuni', 'Lake Titicaca', 'Sarajevo', 'Mostar',
+        'Plitvice Lakes National Park', 'Okavango Delta', 'Chobe National Park', 'Makgadikgadi Pans', 'Rio de Janeiro',
+        'Amazon Rainforest', 'Iguazu Falls', 'Bandar Seri Begawan', 'Kampong Ayer', 'Ulu Temburong', 'Sofia', 'Plovdiv',
+        'Rila Monastery', 'Ouagadougou', 'Banfora', 'Arly National Park', 'Bujumbura', 'Kibira National Park',
+        'Lake Tanganyika', 'Sal Island', 'Boa Vista', 'Angkor Wat', 'Phnom Penh', 'Sihanoukville', 'Yaoundé',
+        'Douala', 'Limbe', 'Toronto', 'Vancouver', 'Banff National Park', 'Dzanga-Sangha Special Reserve',
+        'Boali Waterfalls', 'Zakouma National Park', 'Lake Chad', 'Santiago', 'Easter Island',
+        'Torres del Paine National Park', 'Great Wall of China', 'Forbidden City', 'Terracotta Warriors', 'Bogotá',
+        'Cartagena', 'Tayrona National Natural Park', 'Moroni', 'Mohéli Marine Park', 'Mount Karthala', 'Kinshasa',
+        'Virunga National Park', 'Maiko National Park', 'San José', 'Arenal Volcano', 'Monteverde Cloud Forest Reserve',
+        'Abidjan', 'Yamoussoukro', 'Taï National Park', 'Dubrovnik', 'Plitvice Lakes National Park', 'Zagreb', 'Havana',
+        'Varadero', 'Viñales Valley', 'Nicosia', 'Limassol', 'Paphos', 'Prague', 'Český Krumlov', 'Karlovy Vary',
+        'Copenhagen', "Aarhus", "Legoland Billund",
+        "Djibouti City", "Lake Assal", "Day Forest National Park",
+        "Roseau", "Morne Trois Pitons National Park", "Boiling Lake",
+        "Punta Cana", "Jarabacoa",
+        "Dili", "Atauro Island", "Mount Ramelau",
+        "Quito", "Galápagos Islands", "Amazon Rainforest",
+        "Cairo", "Giza Pyramids", "Luxor", "Red Sea coast",
+        "San Salvador", "Joya de Cerén", "Ruta de las Flores",
+        "Malabo", "Monte Alen National Park",
+        "Asmara", "Massawa", "Dahlak Archipelago",
+        "Tallinn", "Tartu", "Lahemaa National Park",
+        "Mbabane", "Ezulwini Valley", "Hlane Royal National Park",
+        "Addis Ababa", "Lalibela", "Simien Mountains National Park",
+        "Nadi", "Suva", "Yasawa Islands", "Coral Coast",
+        "Helsinki", "Rovaniemi", "Finnish Lakeland", "Lapland",
+        "Paris", "French Riviera", "Provence", "Mont Saint-Michel",
+        "Libreville", "Loango National Park", "Pongara National Park",
+        "Banjul", "Serrekunda", "Makasutu Cultural Forest",
+        "Tbilisi", "Batumi", "Svaneti", "Kakheti Wine Region",
+        "Berlin", "Munich", "Cologne", "Black Forest",
+        "Accra", "Kumasi", "Cape Coast", "Mole National Park",
+        "Athens", "Santorini", "Mykonos", "Acropolis of Athens",
+        "Grand Anse Beach", "Underwater Sculpture Park",
+        "Antigua Guatemala", "Tikal", "Lake Atitlán", "Chichicastenango",
+        "Conakry", "Fouta Djallon", "Îles de Los",
+        "Bissau", "Bijagós Archipelago", "Orango National Park",
+        "Georgetown", "Kaieteur Falls", "Iwokrama Forest",
+        "Port-au-Prince", "Cap-Haïtien", "Jacmel", "Citadelle Laferrière",
+        "Tegucigalpa", "Roatán", "Copán Ruins", "Utila",
+        "Budapest", "Lake Balaton", "Hungarian National Parks",
+        "Reykjavik", "Blue Lagoon", "Vatnajökull National Park",
+        "Delhi", "Agra", "Jaipur", "Kerala Backwaters",
+        "Bali", "Jakarta", "Yogyakarta", "Komodo National Park",
+        "Tehran", "Isfahan", "Persepolis", "Kashan",
+        "Baghdad", "Erbil", "Babylon", "Samarra",
+        "Dublin", "Cliffs of Moher", "Ring of Kerry", "Giant's Causeway",
+        "Jerusalem", "Tel Aviv", "Dead Sea",
+        'Nur-Sultan', 'Almaty', 'Baikonur Cosmodrome',
+        'Nairobi', 'Masai Mara', 'Mount Kenya', 'Amboseli National Park',
+        'Tarawa', 'Christmas Island',
+        'Kuwait City', 'The Avenues Mall', 'Kuwait Towers', 'Al Hamra Tower',
+        'Bishkek', 'Issyk-Kul', 'Ala Archa National Park',
+        'Luang Prabang', 'Vientiane', 'Kuang Si Falls', 'Plain of Jars',
+        'Riga', 'Jurmala', 'Gauja National Park', 'Sigulda',
+        'Beirut', 'Byblos', 'Jeita Grotto', 'Baalbek',
+        'Maseru', 'Semonkong', 'Maletsunyane Falls', 'Drakensberg Mountains',
+        'Monrovia', 'Sapo National Park', 'Robertsport', 'Mount Nimba',
+        'Tripoli', 'Benghazi', 'Leptis Magna', 'Sahara Desert',
+        'Vaduz', 'Malbun', 'Gutenberg Castle', "Prince's Way",
+        'Vilnius', 'Trakai', 'Curonian Spit', 'Hill of Crosses',
+        'Luxembourg City', 'Vianden Castle', 'Mullerthal Trail',
+        'Antananarivo', 'Nosy Be', 'Avenue of the Baobabs',
+        'Lilongwe', 'Lake Malawi', 'Liwonde National Park', 'Cape Maclear',
+        'Kuala Lumpur', 'Penang', 'Langkawi', 'Taman Negara',
+        'Male', 'Maldives Atolls', 'Ari Atoll',
+        'Bamako', 'Timbuktu', 'Dogon Country', 'Djenne Mosque',
+        'Valletta', 'Mdina', 'Blue Grotto', 'Gozo',
+        'Majuro', 'Bikini Atoll', 'Laura Beach', 'Arno Atoll',
+        'Nouakchott', 'Chinguetti',
+        'Port Louis', 'Grand Baie', 'Chamarel', 'Black River Gorges',
+        'Mexico City', 'Cancun', 'Tulum', 'Chichen Itza',
+        'Palikir', 'Yap', 'Chuuk', 'Pohnpei',
+        'Chișinău', 'Orheiul Vechi', 'Mileștii Mici', 'Cricova',
+        'Monte Carlo Casino', "Prince's Palace", 'Larvotto Beach',
+        'Ulaanbaatar', 'Gobi Desert', 'Lake Khövsgöl', 'Terelj National Park',
+        'Kotor', 'Budva', 'Durmitor National Park', 'Sveti Stefan',
+        'Marrakech', 'Chefchaouen', 'Fes', 'Sahara Desert',
+        'Maputo', 'Bazaruto Archipelago', 'Gorongosa National Park',
+        'Yangon', 'Bagan', 'Inle Lake', 'Mandalay',
+        'Windhoek', 'Etosha National Park', 'Sossusvlei', 'Fish River Canyon',
+        'Yaren', 'Anibare Bay', 'Buada Lagoon',
+        'Kathmandu', 'Pokhara', 'Everest Base Camp', 'Chitwan National Park',
+        'Amsterdam', 'Rotterdam', 'The Hague', 'Keukenhof',
+        'Auckland', 'Queenstown', 'Rotorua', 'Milford Sound',
+        'Granada', 'Ometepe Island', 'San Juan del Sur',
+        'Niamey', 'Agadez', 'W National Park', 'Djado Plateau',
+        'Lagos', 'Abuja', 'Zuma Rock', 'Yankari National Park',
+        'Pyongyang', 'Mount Paektu', 'Demilitarized Zone (DMZ)', 'Kaesong',
+        'Skopje', 'Ohrid', 'Bitola', 'Matka Canyon',
+        'Oslo', 'Bergen', 'Tromso', 'Geirangerfjord',
+        'Muscat', 'Nizwa', 'Wahiba Sands', 'Jebel Shams',
+        'Islamabad', 'Lahore', 'Karachi', 'Nanga Parbat',
+        'Koror', 'Rock Islands', 'Jellyfish Lake', 'Ngardmau Waterfall',
+        'Panama City', 'Bocas del Toro', 'San Blas Islands', 'Panama Canal',
+        'Port Moresby', 'KokoPhoenix Islandsda Track', 'Rabaul', 'Sepik River',
+        'Asuncion', 'Ciudad del Este', 'Iguazu Falls (shared with Brazil)',
+        'Machu Picchu', 'Cusco', 'Lake Titicaca',
+        'Manila', 'Palawan', 'Boracay', 'Cebu',
+        'Warsaw', 'Krakow', 'Gdansk', 'Wroclaw',
+        'Lisbon', 'Porto', 'Algarve', 'Sintra',
+        'Doha', 'Souq Waqif', 'Khor Al Adaid',
+        'Bucharest', 'Transylvania', 'Brasov', 'Danube Delta',
+        'Moscow', 'St. Petersburg', 'Trans-Siberian Railway', 'Lake Baikal',
+        'Kigali', 'Volcanoes National Park', 'Lake Kivu', 'Nyungwe Forest',
+        'Basseterre', 'Nevis Peak', 'Frigate Bay', 'Brimstone Hill Fortress',
+        'Soufriere', 'Pitons', 'Rodney Bay', 'Marigot Bay', 'Kingstown',
+        'Bequia', 'Tobago Cays', 'Canouan Island', 'Apia', 'Upolu',
+        'To Sua Ocean Trench', 'Historic Center of San Marino',
+        'Guaita Tower', 'Mount Titano', 'Sao Tome', 'Principe Island',
+        'Obo National Park', 'Riyadh', 'Mecca', 'Medina', 'Red Sea Coast',
+        'Dakar', 'Saint-Louis', 'Pink Lake', 'Djoudj National Bird Sanctuary',
+        'Belgrade', 'Novi Sad', 'Nis', 'Kalemegdan Fortress',
+        'Mahe', 'Praslin', 'La Digue', 'Vallée de Mai',
+        'Freetown', 'Tacugama Chimpanzee Sanctuary', 'Banana Islands', 'Singapore Botanic Gardens', 'Marina Bay Sands', 'Sentosa Island',
+        'Bratislava', 'High Tatras', 'Spiš Castle', 'Slovak Paradise', 'Ljubljana', 'Lake Bled', 'Triglav National Park', 'Postojna Cave',
+        'Honiara', 'Guadalcanal', 'Gizo', 'Marovo Lagoon', 'Mogadishu', 'Hargeisa', 'Laas Geel',
+        'Cape Town', 'Kruger National Park', 'Johannesburg', 'Table Mountain', 'Seoul', 'Busan', 'Jeju Island', 'Gyeongbokgung Palace',
+        'Juba', 'Boma National Park', 'Nimule National Park', 'Madrid', 'Barcelona', 'Seville', 'Granada',
+        'Colombo', 'Kandy', 'Sigiriya', 'Galle Fort', 'Khartoum', 'Meroe Pyramids', 'Nubian Desert',
+        'Paramaribo', 'Brownsberg Nature Park', 'Galibi Nature Reserve', 'Stockholm', 'Gothenburg', 'Swedish Lapland',
+        'Zurich', 'Geneva', 'Lucerne', 'Matterhorn', 'Damascus', 'Aleppo', 'Palmyra', 'Krak des Chevaliers',
+        'Taipei', 'Jiufen', 'Taroko Gorge', 'Kenting National Park', 'Dushanbe', 'Pamir Mountains', 'Iskanderkul Lake',
+        'Serengeti National Park', 'Mount Kilimanjaro', 'Zanzibar', 'Wat Arun', 'Phi Phi Islands', 'Ayutthaya Historical Park', 'Bangkok',
+        'Phuket', 'Chiang Mai', 'Ayutthaya', 'Nassau', 'Paradise Island', 'Exuma Cays',
+        'Dili', 'Atauro Island', 'Jaco Island', 'Mount Ramelau', 'Lomé', 'Koutammakou', 'Togoville', 'Fazao-Malfakassa National Park',
+        'Nuku\'alofa', 'Ha\'apai Islands', '\'Eua Island', 'Vava’u', 'Tobago Main Ridge Forest Reserve', 'Maracas Beach',
+        'Tunis', 'Carthage', 'Sidi Bou Said', 'Sahara Desert', 'Istanbul', 'Cappadocia', 'Ephesus', 'Pamukkale',
+        'Ashgabat', 'Darvaza Gas Crater', 'Ancient Merv', 'Funafuti', 'Nanumea', 'Nui',
+        'Kampala', 'Bwindi Impenetrable Forest', 'Murchison Falls', 'Kyiv', 'Lviv', 'Chernobyl', 'Carpathian Mountains',
+        'Burj Khalifa', 'Dubai Mall', 'Sheikh Zayed Grand Mosque', 'Dubai', 'Abu Dhabi', 'Sharjah',
+        'London', 'Edinburgh', 'Stonehenge', 'Lake District', 'New York City', 'Los Angeles', 'Grand Canyon',
+        'Miami', 'Montevideo', 'Punta del Este', 'Colonia del Sacramento', 'Tashkent', 'Samarkand', 'Bukhara', 'Khiva', 'Port Vila', 'Espiritu Santo',
+        'Tanna Island', 'St. Peter\'s Basilica', 'Vatican Museums', 'Sistine Chapel', 'Caracas', 'Angel Falls', 'Los Roques',
+        'Isla Margarita', 'Hanoi', 'Ho Chi Minh City', 'Ha Long Bay', 'Hoi An', 'Sana\'a', 'Socotra Island', 'Shibam',
+        'Old City of Sana’a', 'Victoria Falls', 'South Luangwa National Park', 'Lusaka', 'Hwange National Park', 'Harare'
+        }
+
+def create_attraction_vec():
+        # Removing all the sequences that do not appear in the model,
+        # and creating word2vec as 'vectors' parameter
+        vectors = []
+        sequences = []
+        temp = list(attractions_set)
+        for seq in temp:
+            words = seq.split()
+            if any(word not in model for word in words):
+                continue
+            sequence_vector = np.mean([model[word] for word in words], axis=0)  # Average word vectors to get sequence vector
+            sequences.append(seq)
+            vectors.append(sequence_vector)
+
+        # Generate vectors for each sequence
+        attraction_vectors = dict()
+        for sequence, vector in zip(sequences, vectors):
+            attraction_vectors[sequence] = vector
+            # print(sequence, ":", vector)
+            # print()
+
+        return attraction_vectors

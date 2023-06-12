@@ -1,0 +1,1158 @@
+digraph {
+	Rabaul
+	Chichicastenango
+	Bamako
+	"Bocas del Toro"
+	Fes
+	Ayutthaya
+	"Boma National Park"
+	Berat
+	Bissau
+	"Kampong Ayer"
+	"Ruta de las Flores"
+	Krakow
+	"Lake Balaton"
+	"Chichen Itza"
+	"Sahara Desert"
+	"Danube Delta"
+	Varadero
+	"To Sua Ocean Trench"
+	Khartoum
+	Antananarivo
+	Ghent
+	Kumasi
+	Dili
+	"Bahrain Fort"
+	Amsterdam
+	Yogyakarta
+	Palmyra
+	Porto
+	"Kuang Si Falls"
+	Cotonou
+	Suva
+	"Tobago Cays"
+	"Loango National Park"
+	Nassau
+	Phuket
+	"Krak des Chevaliers"
+	Kabul
+	"Novi Sad"
+	"Panama Canal"
+	Minsk
+	Zagreb
+	Kinshasa
+	Gothenburg
+	Pohnpei
+	Marrakech
+	Warsaw
+	"Swedish Lapland"
+	Langkawi
+	"Bazaruto Archipelago"
+	"Banff National Park"
+	"French Riviera"
+	Mecca
+	Munich
+	Thimphu
+	"Fish River Canyon"
+	"Savai'i"
+	"Wat Arun"
+	Douala
+	"Canouan Island"
+	Monrovia
+	Bruges
+	Khiva
+	Paphos
+	"Atauro Island"
+	"Marovo Lagoon"
+	"Table Mountain"
+	"Blue Grotto"
+	"Cape Maclear"
+	"Morne Trois Pitons National Park"
+	Karachi
+	"Malmö"
+	Pamukkale
+	"Grandvalira Ski Resort"
+	"Sistine Chapel"
+	"Lake District"
+	"Masai Mara"
+	Helsinki
+	"Chitwan National Park"
+	Bagan
+	Ouagadougou
+	"Kuala Lumpur"
+	Moroni
+	Tunis
+	"Sundarbans National Park"
+	Paris
+	"Angel Falls"
+	Queenstown
+	Vientiane
+	"Jeju Island"
+	Luxor
+	Kandy
+	"Abu Dhabi"
+	Kampala
+	Dakar
+	Mahe
+	Abuja
+	"Grand Anse Beach"
+	Riga
+	"Copán Ruins"
+	"Addis Ababa"
+	"Mount Titano"
+	Baku
+	Praslin
+	"Underwater Sculpture Park"
+	"La Paz"
+	"Marigot Bay"
+	"Singapore Botanic Gardens"
+	"Nuku'alofa"
+	Kingstown
+	Seville
+	"Taman Negara"
+	"Gyeongbokgung Palace"
+	Bratislava
+	Bucharest
+	Berlin
+	"Exuma Cays"
+	"Phoenix Islands"
+	Tromso
+	"Great Barrier Reef"
+	Bridgetown
+	Lagos
+	"Mole National Park"
+	"Tatev Monastery"
+	Busan
+	Stockholm
+	"Vallée de Mai"
+	"Hoi An"
+	Copenhagen
+	Moscow
+	Yerevan
+	Gozo
+	"Slovak Paradise"
+	Tegucigalpa
+	Utila
+	"Arenal Volcano"
+	Bishkek
+	Pokhara
+	"Matka Canyon"
+	"Nanga Parbat"
+	"Bogotá"
+	Benghazi
+	Mogadishu
+	Aleppo
+	"Dubai Mall"
+	"Galápagos Islands"
+	"Chiang Mai"
+	Jurmala
+	"Gobustan National Park"
+	Sossusvlei
+	Maseru
+	"Kenting National Park"
+	Erbil
+	Chefchaouen
+	"Easter Island"
+	"Mount Nimba"
+	Cebu
+	Dublin
+	Cologne
+	Herat
+	"Ulu Temburong"
+	Taipei
+	"Al Hamra Tower"
+	Yangon
+	"Murchison Falls"
+	"New York City"
+	Aarhus
+	"Ha Long Bay"
+	Jakarta
+	Ljubljana
+	Montevideo
+	Kyiv
+	"Andorra la Vella"
+	Oran
+	"Kuwait City"
+	Majuro
+	Manama
+	Vienna
+	Lalibela
+	"Tobago Main Ridge Forest Reserve"
+	"Kuwait Towers"
+	"Arly National Park"
+	Jacmel
+	Mbabane
+	"Antigua Guatemala"
+	Byblos
+	Shibam
+	Baalbek
+	"Marina Bay Sands"
+	Jarabacoa
+	Athens
+	"Rodney Bay"
+	Medina
+	Sharjah
+	Ohrid
+	Cancun
+	Tehran
+	Pitons
+	Butrint
+	Palikir
+	"Mexico City"
+	Lahore
+	Skopje
+	Nairobi
+	"Guaita Tower"
+	"Vatican Museums"
+	Kathmandu
+	"Mount Kenya"
+	Sihanoukville
+	"Milford Sound"
+	Agra
+	"San Blas Islands"
+	Kashan
+	"Ancient Merv"
+	Cairo
+	Dhaka
+	Bali
+	Tbilisi
+	"Hwange National Park"
+	"Karlovy Vary"
+	"Iguazu Falls"
+	"Nubian Desert"
+	"Postojna Cave"
+	"Red Sea coast"
+	Sigiriya
+	"Grand Canyon"
+	"Bamiyan Valley"
+	"Grand Baie"
+	"Komodo National Park"
+	"Phi Phi Islands"
+	"Sal Island"
+	"Lake Atitlán"
+	"Liwonde National Park"
+	"Kerala Backwaters"
+	Paramaribo
+	Chernobyl
+	"Kakheti Wine Region"
+	"Principe Island"
+	"San Juan del Sur"
+	"Iwokrama Forest"
+	"Salar de Uyuni"
+	Basseterre
+	"Gobi Desert"
+	"N'Djamena"
+	"Luxembourg City"
+	Lilongwe
+	Bequia
+	Freetown
+	"Terracotta Warriors"
+	"Plitvice Lakes National Park"
+	"Ari Atoll"
+	Vancouver
+	"Banana Islands"
+	Isfahan
+	"Lake Malawi"
+	"Victoria Falls"
+	"Sidi Bou Said"
+	Auckland
+	Budapest
+	"Lake Bled"
+	Bukhara
+	Mostar
+	Malabo
+	Cartagena
+	Doha
+	"Lake Baikal"
+	Kaesong
+	"Phnom Penh"
+	Agadez
+	Nui
+	Koror
+	"Larvotto Beach"
+	Manila
+	"La Digue"
+	Gizo
+	Lapland
+	"Hungarian National Parks"
+	"Viñales Valley"
+	Harare
+	"Leptis Magna"
+	"Rio de Janeiro"
+	Banjul
+	"Paradise Island"
+	Guadalcanal
+	"Drakensberg Mountains"
+	Tallinn
+	Sarajevo
+	Vilnius
+	"Panama City"
+	Prague
+	"Ala Archa National Park"
+	"Lake Titicaca"
+	Rotorua
+	"San Salvador"
+	"Isla Margarita"
+	Stonehenge
+	Quito
+	Conakry
+	"Everest Base Camp"
+	"Ho Chi Minh City"
+	"Baikonur Cosmodrome"
+	Sheki
+	Upolu
+	"Los Roques"
+	"Tacugama Chimpanzee Sanctuary"
+	"Îles de Los"
+	"Okavango Delta"
+	"Bikini Atoll"
+	"Serengeti National Park"
+	"Kaieteur Falls"
+	Vaduz
+	"Yaoundé"
+	"Lake Assal"
+	"Namib Desert"
+	Algiers
+	Persepolis
+	"Durmitor National Park"
+	"Mir Castle"
+	"Pink Lake"
+	Nadi
+	Penang
+	Havana
+	"Monteverde Cloud Forest Reserve"
+	Tartu
+	Mykonos
+	"Angkor Wat"
+	Timbuktu
+	"Wahiba Sands"
+	Sigulda
+	Sintra
+	"Brimstone Hill Fortress"
+	Jaipur
+	"Dead Sea"
+	Puntland
+	Soufriere
+	"Nevis Peak"
+	Abidjan
+	"Chobe National Park"
+	"Jeita Grotto"
+	"Black Forest"
+	"Maiko National Park"
+	Nouakchott
+	"Sveti Stefan"
+	Lusaka
+	"Zuma Rock"
+	"Jaco Island"
+	Barcelona
+	"Boa Vista"
+	"Colonia del Sacramento"
+	"Bioko Island"
+	"Maracas Beach"
+	Edinburgh
+	"Day Forest National Park"
+	"Djibouti City"
+	"Nosy Be"
+	Transylvania
+	"Galle Fort"
+	Yap
+	"Dogon Country"
+	Santorini
+	"Lake Kivu"
+	Geneva
+	"Kokoda Track"
+	"Yasawa Islands"
+	"Laas Geel"
+	"Sapo National Park"
+	Cusco
+	"Belize Barrier Reef"
+	"Lomé"
+	"Sepik River"
+	Libreville
+	Mdina
+	Plovdiv
+	Rovaniemi
+	"Ometepe Island"
+	"Sheikh Zayed Grand Mosque"
+	"Mount Kilimanjaro"
+	"Punta del Este"
+	"Obo National Park"
+	Santiago
+	"Nimule National Park"
+	Robertsport
+	Babylon
+	"Rock Islands"
+	Reykjavik
+	"Cape Town"
+	Granada
+	Cappadocia
+	Apia
+	"Machu Picchu"
+	Funafuti
+	Miami
+	Madrid
+	Lisbon
+	Banfora
+	"Red Sea Coast"
+	"Roatán"
+	Gdansk
+	Dubai
+	Rotterdam
+	Lviv
+	"Espiritu Santo"
+	Bangkok
+	"Etosha National Park"
+	"Sao Tome"
+	Baghdad
+	Dubrovnik
+	Georgetown
+	Hargeisa
+	Tarawa
+	"Taroko Gorge"
+	Mandalay
+	"Makgadikgadi Pans"
+	"Volcanoes National Park"
+	"Pamir Mountains"
+	Belgrade
+	Bergen
+	"The Hague"
+	Budva
+	"Carpathian Mountains"
+	Bathsheba
+	Chinguetti
+	London
+	"Amboseli National Park"
+	Asmara
+	Carthage
+	Ulaanbaatar
+	Uluru
+	"Lake Tanganyika"
+	Ephesus
+	Bujumbura
+	Boracay
+	"Brest Fortress"
+	"Jellyfish Lake"
+	Valletta
+	Male
+	Matterhorn
+	"South Luangwa National Park"
+	Paro
+	Zurich
+	"Lake Chad"
+	"Kibira National Park"
+	Toronto
+	"Monte Carlo Casino"
+	"Frigate Bay"
+	"Arno Atoll"
+	Pyongyang
+	"Kruger National Park"
+	Niamey
+	"Inle Lake"
+	Bangui
+	"Ambergris Caye"
+	Nicosia
+	Svaneti
+	Oslo
+	Tirana
+	Honiara
+	"Punta Cana"
+	Bitola
+	Brussels
+	Johannesburg
+	"Burj Khalifa"
+	"Nyungwe Forest"
+	Tashkent
+	"Djenne Mosque"
+	"Legoland Billund"
+	"Ezulwini Valley"
+	Seoul
+	Algarve
+	Riyadh
+	"Laura Beach"
+	Punakha
+	Zanzibar
+	"Citadelle Laferrière"
+	"Kalemegdan Fortress"
+	Samarra
+	"Santo Domingo"
+	Brasov
+	"Sentosa Island"
+	"Torres del Paine National Park"
+	Jerusalem
+	"Virunga National Park"
+	Wroclaw
+	"Cape Coast"
+	"Gorongosa National Park"
+	Muscat
+	"Bandar Seri Begawan"
+	Nizwa
+	Colombo
+	"Gutenberg Castle"
+	Luanda
+	Ashgabat
+	"Yankari National Park"
+	Tikal
+	"Tayrona National Natural Park"
+	Beirut
+	Roseau
+	"Sydney Opera House"
+	"Hlane Royal National Park"
+	"Simien Mountains National Park"
+	Hanoi
+	"Bwindi Impenetrable Forest"
+	Yaren
+	Trakai
+	"W National Park"
+	"Triglav National Park"
+	Samarkand
+	Juba
+	"Mount Karthala"
+	"Ayutthaya Historical Park"
+	Accra
+	"Perito Moreno Glacier"
+	"Souq Waqif"
+	"Meroe Pyramids"
+	Tulum
+	Delhi
+	"Vatnajökull National Park"
+	"Baa Atoll"
+	Palawan
+	"Rila Monastery"
+	Yamoussoukro
+	"Giza Pyramids"
+	"San José"
+	"Ha'apai Islands"
+	Vallnord
+	Limassol
+	"Port Louis"
+	"St. Petersburg"
+	Innsbruck
+	"Amazon Rainforest"
+	"Boiling Lake"
+	"High Tatras"
+	"Forbidden City"
+	Nis
+	Limbe
+	Salzburg
+	"Blue Lagoon"
+	Windhoek
+	Almaty
+	"Mayan Ruins"
+	Kotor
+	Dushanbe
+	"Buenos Aires"
+	"Coral Coast"
+	"Sana'a"
+	Tripoli
+	"Mount Paektu"
+	"Dahlak Archipelago"
+	"Port Moresby"
+	Massawa
+	Batumi
+	"Tanna Island"
+	Caracas
+	Asuncion
+	Damascus
+	"Zakouma National Park"
+	Istanbul
+	"Finnish Lakeland"
+	"Christmas Island"
+	Serrekunda
+	"Ciudad del Este"
+	"Port Vila"
+	Maputo
+	"Jebel Shams"
+	Kigali
+	"Český Krumlov"
+	Keukenhof
+	"Los Angeles"
+	Sofia
+	Islamabad
+	"Socotra Island"
+	"The Avenues Mall"
+	"Maldives Atolls"
+	Provence
+	"Tel Aviv"
+	Lucerne
+	Chuuk
+	"Lake Sevan"
+	"Black River Gorges"
+	Rabaul -> "Black River Gorges"
+	Chichicastenango -> "Tel Aviv"
+	Bamako -> "Lake Sevan"
+	"Bocas del Toro" -> Provence
+	Fes -> "Maldives Atolls"
+	Ayutthaya -> Chuuk
+	"Boma National Park" -> Maputo
+	Berat -> Istanbul
+	Bissau -> "The Avenues Mall"
+	"Kampong Ayer" -> "Český Krumlov"
+	"Ruta de las Flores" -> Sofia
+	Krakow -> Lucerne
+	"Lake Balaton" -> "Socotra Island"
+	"Chichen Itza" -> "Port Moresby"
+	"Sahara Desert" -> "Tanna Island"
+	"Danube Delta" -> Asuncion
+	Varadero -> "Mount Paektu"
+	"To Sua Ocean Trench" -> Islamabad
+	Khartoum -> Kotor
+	Antananarivo -> "Port Vila"
+	Ghent -> "Ciudad del Este"
+	Kumasi -> "Los Angeles"
+	Dili -> "St. Petersburg"
+	"Bahrain Fort" -> Keukenhof
+	Amsterdam -> Serrekunda
+	Yogyakarta -> "Finnish Lakeland"
+	Palmyra -> "High Tatras"
+	Porto -> "Giza Pyramids"
+	"Kuang Si Falls" -> "Dahlak Archipelago"
+	Cotonou -> Dushanbe
+	Suva -> Massawa
+	"Tobago Cays" -> Vallnord
+	"Loango National Park" -> "Mount Karthala"
+	Nassau -> Windhoek
+	Phuket -> "Vatnajökull National Park"
+	"Krak des Chevaliers" -> Almaty
+	Kabul -> "Jebel Shams"
+	"Novi Sad" -> Samarkand
+	"Panama Canal" -> Innsbruck
+	Minsk -> "Zakouma National Park"
+	Zagreb -> "Simien Mountains National Park"
+	Kinshasa -> Beirut
+	Gothenburg -> Damascus
+	Pohnpei -> Kigali
+	Marrakech -> "Coral Coast"
+	Warsaw -> Yamoussoukro
+	"Swedish Lapland" -> Pyongyang
+	Langkawi -> Seoul
+	"Bazaruto Archipelago" -> Batumi
+	"Banff National Park" -> "Ha'apai Islands"
+	"French Riviera" -> "Christmas Island"
+	Mecca -> Limbe
+	Munich -> "Boiling Lake"
+	Thimphu -> "Amazon Rainforest"
+	"Fish River Canyon" -> Limassol
+	"Savai'i" -> "Baa Atoll"
+	"Wat Arun" -> Accra
+	Douala -> "Sana'a"
+	"Canouan Island" -> "Port Louis"
+	Monrovia -> Salzburg
+	Bruges -> Tirana
+	Khiva -> "Rila Monastery"
+	Paphos -> Rotterdam
+	"Atauro Island" -> "W National Park"
+	"Marovo Lagoon" -> Palawan
+	"Table Mountain" -> "Ambergris Caye"
+	"Blue Grotto" -> Trakai
+	"Cape Maclear" -> Nis
+	"Morne Trois Pitons National Park" -> "San José"
+	Karachi -> Bitola
+	"Malmö" -> "Yankari National Park"
+	Pamukkale -> "Djenne Mosque"
+	"Grandvalira Ski Resort" -> Tashkent
+	"Sistine Chapel" -> Zanzibar
+	"Lake District" -> Bujumbura
+	"Masai Mara" -> Ulaanbaatar
+	Helsinki -> Nizwa
+	"Chitwan National Park" -> Luanda
+	Bagan -> Roseau
+	Ouagadougou -> "Makgadikgadi Pans"
+	"Kuala Lumpur" -> Riyadh
+	Moroni -> "Ezulwini Valley"
+	Tunis -> Mdina
+	"Sundarbans National Park" -> Ashgabat
+	Paris -> Bangui
+	"Angel Falls" -> "Sentosa Island"
+	Queenstown -> Delhi
+	Vientiane -> Wroclaw
+	"Jeju Island" -> Tripoli
+	Luxor -> Hanoi
+	Kandy -> "Legoland Billund"
+	"Abu Dhabi" -> Yap
+	Kampala -> Colombo
+	Dakar -> "Lake Tanganyika"
+	Mahe -> Doha
+	Abuja -> Vaduz
+	"Grand Anse Beach" -> Gdansk
+	Riga -> "Sydney Opera House"
+	"Copán Ruins" -> "Forbidden City"
+	"Addis Ababa" -> "Perito Moreno Glacier"
+	"Mount Titano" -> Algarve
+	Baku -> "Dogon Country"
+	Praslin -> Caracas
+	"Underwater Sculpture Park" -> Yaren
+	"La Paz" -> "Monte Carlo Casino"
+	"Marigot Bay" -> Tulum
+	"Singapore Botanic Gardens" -> Toronto
+	"Nuku'alofa" -> "Frigate Bay"
+	Kingstown -> "Citadelle Laferrière"
+	Seville -> "Souq Waqif"
+	"Taman Negara" -> "Burj Khalifa"
+	"Gyeongbokgung Palace" -> Niamey
+	Bratislava -> "Laura Beach"
+	Bucharest -> Boracay
+	Berlin -> Nicosia
+	"Exuma Cays" -> "Mayan Ruins"
+	"Phoenix Islands" -> "Jaco Island"
+	Tromso -> Muscat
+	"Great Barrier Reef" -> "Pink Lake"
+	Bridgetown -> Plovdiv
+	Lagos -> Geneva
+	"Mole National Park" -> "Lake Chad"
+	"Tatev Monastery" -> "Sepik River"
+	Busan -> Valletta
+	Stockholm -> "Jellyfish Lake"
+	"Vallée de Mai" -> Cusco
+	"Hoi An" -> Santorini
+	Copenhagen -> "Amboseli National Park"
+	Moscow -> Zurich
+	Yerevan -> "Meroe Pyramids"
+	Gozo -> Svaneti
+	"Slovak Paradise" -> Ephesus
+	Tegucigalpa -> "Yaoundé"
+	Utila -> Johannesburg
+	"Arenal Volcano" -> "Hlane Royal National Park"
+	Bishkek -> Budva
+	Pokhara -> "Bwindi Impenetrable Forest"
+	"Matka Canyon" -> "Lomé"
+	"Nanga Parbat" -> "Nyungwe Forest"
+	"Bogotá" -> "Kruger National Park"
+	Benghazi -> Cappadocia
+	Mogadishu -> Madrid
+	Aleppo -> "Gorongosa National Park"
+	"Dubai Mall" -> Honiara
+	"Galápagos Islands" -> "La Digue"
+	"Chiang Mai" -> Belgrade
+	Jurmala -> Bali
+	"Gobustan National Park" -> "Lake Kivu"
+	Sossusvlei -> "Galle Fort"
+	Maseru -> Bergen
+	"Kenting National Park" -> Bathsheba
+	Erbil -> Lisbon
+	Chefchaouen -> "Ancient Merv"
+	"Easter Island" -> Manila
+	"Mount Nimba" -> Oslo
+	Cebu -> Transylvania
+	Dublin -> Uluru
+	Cologne -> "Punta Cana"
+	Herat -> "Sao Tome"
+	"Ulu Temburong" -> Nadi
+	Taipei -> Banfora
+	"Al Hamra Tower" -> Harare
+	Yangon -> Male
+	"Murchison Falls" -> Apia
+	"New York City" -> Mandalay
+	Aarhus -> "Laas Geel"
+	"Ha Long Bay" -> "Boa Vista"
+	Jakarta -> Dubrovnik
+	Ljubljana -> "Bioko Island"
+	Montevideo -> "Arno Atoll"
+	Kyiv -> Carthage
+	"Andorra la Vella" -> "Cape Town"
+	Oran -> Abidjan
+	"Kuwait City" -> Juba
+	Majuro -> Tikal
+	Manama -> "Bamiyan Valley"
+	Vienna -> "Kalemegdan Fortress"
+	Lalibela -> "Buenos Aires"
+	"Tobago Main Ridge Forest Reserve" -> "Day Forest National Park"
+	"Kuwait Towers" -> Brasov
+	"Arly National Park" -> "Namib Desert"
+	Jacmel -> "Djibouti City"
+	Mbabane -> Agadez
+	"Antigua Guatemala" -> Paphos
+	Byblos -> Agra
+	Shibam -> "Bandar Seri Begawan"
+	Baalbek -> Santiago
+	"Marina Bay Sands" -> Bangkok
+	Jarabacoa -> "Isla Margarita"
+	Athens -> Isfahan
+	"Rodney Bay" -> Oran
+	Medina -> "San Juan del Sur"
+	Sharjah -> "Kakheti Wine Region"
+	Ohrid -> Bukhara
+	Cancun -> Funafuti
+	Tehran -> Sigulda
+	Pitons -> "Santo Domingo"
+	Butrint -> "Ometepe Island"
+	Palikir -> Paro
+	"Mexico City" -> Prague
+	Lahore -> "Phnom Penh"
+	Skopje -> Tarawa
+	Nairobi -> "The Hague"
+	"Guaita Tower" -> "Angkor Wat"
+	"Vatican Museums" -> "Jeita Grotto"
+	Kathmandu -> "Pamir Mountains"
+	"Mount Kenya" -> "Ayutthaya Historical Park"
+	Sihanoukville -> "Nosy Be"
+	"Milford Sound" -> "Everest Base Camp"
+	Agra -> Barcelona
+	"San Blas Islands" -> "Lake Malawi"
+	Kashan -> Matterhorn
+	"Ancient Merv" -> "Iguazu Falls"
+	Cairo -> "Grand Canyon"
+	Dhaka -> "Brest Fortress"
+	Bali -> "Drakensberg Mountains"
+	Tbilisi -> London
+	"Hwange National Park" -> Rovaniemi
+	"Karlovy Vary" -> Punakha
+	"Iguazu Falls" -> "Taroko Gorge"
+	"Nubian Desert" -> "Triglav National Park"
+	"Postojna Cave" -> Yangon
+	"Red Sea coast" -> "Ha Long Bay"
+	Sigiriya -> "Red Sea Coast"
+	"Grand Canyon" -> "Los Roques"
+	"Bamiyan Valley" -> Reykjavik
+	"Grand Baie" -> "San Blas Islands"
+	"Komodo National Park" -> "Roatán"
+	"Phi Phi Islands" -> "Etosha National Park"
+	"Sal Island" -> "Inle Lake"
+	"Lake Atitlán" -> "Rock Islands"
+	"Liwonde National Park" -> "Cape Coast"
+	"Kerala Backwaters" -> "Gutenberg Castle"
+	Paramaribo -> Algiers
+	Chernobyl -> "Nubian Desert"
+	"Kakheti Wine Region" -> "Viñales Valley"
+	"Principe Island" -> Sintra
+	"San Juan del Sur" -> Erbil
+	"Iwokrama Forest" -> "Luxembourg City"
+	"Salar de Uyuni" -> Luxor
+	Basseterre -> "Colonia del Sacramento"
+	"Gobi Desert" -> "Black Forest"
+	"N'Djamena" -> "Postojna Cave"
+	"Luxembourg City" -> Budapest
+	Lilongwe -> "Nimule National Park"
+	Bequia -> Conakry
+	Freetown -> "Kaieteur Falls"
+	"Terracotta Warriors" -> "Ari Atoll"
+	"Plitvice Lakes National Park" -> Chinguetti
+	"Ari Atoll" -> Pitons
+	Vancouver -> Miami
+	"Banana Islands" -> "Komodo National Park"
+	Isfahan -> "Kerala Backwaters"
+	"Lake Malawi" -> "Brimstone Hill Fortress"
+	"Victoria Falls" -> "Rio de Janeiro"
+	"Sidi Bou Said" -> "Marina Bay Sands"
+	Auckland -> Dubai
+	Budapest -> "Angel Falls"
+	"Lake Bled" -> "Volcanoes National Park"
+	Bukhara -> "Torres del Paine National Park"
+	Mostar -> Athens
+	Malabo -> Lusaka
+	Cartagena -> "Carpathian Mountains"
+	Doha -> "Tobago Main Ridge Forest Reserve"
+	"Lake Baikal" -> "Lake Assal"
+	Kaesong -> Lapland
+	"Phnom Penh" -> "Îles de Los"
+	Agadez -> "Hwange National Park"
+	Nui -> Asmara
+	Koror -> Brussels
+	"Larvotto Beach" -> "Virunga National Park"
+	Manila -> "Maiko National Park"
+	"La Digue" -> "Sapo National Park"
+	Gizo -> "South Luangwa National Park"
+	Lapland -> "Tayrona National Natural Park"
+	"Hungarian National Parks" -> "Kokoda Track"
+	"Viñales Valley" -> "Serengeti National Park"
+	Harare -> "San Salvador"
+	"Leptis Magna" -> Sheki
+	"Rio de Janeiro" -> "Lake Titicaca"
+	Banjul -> Georgetown
+	"Paradise Island" -> "Punta del Este"
+	Guadalcanal -> "Arly National Park"
+	"Drakensberg Mountains" -> "Red Sea coast"
+	Tallinn -> "Obo National Park"
+	Sarajevo -> Jerusalem
+	Vilnius -> "Kibira National Park"
+	"Panama City" -> "Durmitor National Park"
+	Prague -> Rotorua
+	"Ala Archa National Park" -> Aarhus
+	"Lake Titicaca" -> "Grand Baie"
+	Rotorua -> Baghdad
+	"San Salvador" -> "Arenal Volcano"
+	"Isla Margarita" -> Kingstown
+	Stonehenge -> Manama
+	Quito -> Vienna
+	Conakry -> Nouakchott
+	"Everest Base Camp" -> Gothenburg
+	"Ho Chi Minh City" -> Butrint
+	"Baikonur Cosmodrome" -> Palmyra
+	Sheki -> Kabul
+	Upolu -> Bridgetown
+	"Los Roques" -> Mbabane
+	"Tacugama Chimpanzee Sanctuary" -> Cancun
+	"Îles de Los" -> Pokhara
+	"Okavango Delta" -> Aleppo
+	"Bikini Atoll" -> Yerevan
+	"Serengeti National Park" -> "Bogotá"
+	"Kaieteur Falls" -> Nui
+	Vaduz -> Cotonou
+	"Yaoundé" -> Gizo
+	"Lake Assal" -> "Taman Negara"
+	"Namib Desert" -> Phuket
+	Algiers -> Bissau
+	Persepolis -> Skopje
+	"Durmitor National Park" -> Mykonos
+	"Mir Castle" -> Bequia
+	"Pink Lake" -> Kathmandu
+	Nadi -> "Monteverde Cloud Forest Reserve"
+	Penang -> Upolu
+	Havana -> "Hungarian National Parks"
+	"Monteverde Cloud Forest Reserve" -> Soufriere
+	Tartu -> Warsaw
+	Mykonos -> Moroni
+	"Angkor Wat" -> "Savai'i"
+	Timbuktu -> Kandy
+	"Wahiba Sands" -> Khartoum
+	Sigulda -> Edinburgh
+	Sintra -> Suva
+	"Brimstone Hill Fortress" -> Puntland
+	Jaipur -> Tbilisi
+	"Dead Sea" -> Sihanoukville
+	Puntland -> "Ho Chi Minh City"
+	Soufriere -> Vientiane
+	"Nevis Peak" -> Timbuktu
+	Abidjan -> Chernobyl
+	"Chobe National Park" -> Seville
+	"Jeita Grotto" -> Kashan
+	"Black Forest" -> Tallinn
+	"Maiko National Park" -> Cologne
+	Nouakchott -> Granada
+	"Sveti Stefan" -> "Lake Baikal"
+	Lusaka -> Nairobi
+	"Zuma Rock" -> Busan
+	"Jaco Island" -> Sigiriya
+	Barcelona -> Berlin
+	"Boa Vista" -> "Karlovy Vary"
+	"Colonia del Sacramento" -> Bruges
+	"Bioko Island" -> "Panama Canal"
+	"Maracas Beach" -> "Table Mountain"
+	Edinburgh -> Cairo
+	"Day Forest National Park" -> "Masai Mara"
+	"Djibouti City" -> Ohrid
+	"Nosy Be" -> Thimphu
+	Transylvania -> "Novi Sad"
+	"Galle Fort" -> Majuro
+	Yap -> "Blue Lagoon"
+	"Dogon Country" -> "Lake Bled"
+	Santorini -> Lagos
+	"Lake Kivu" -> Vilnius
+	Geneva -> "Hoi An"
+	"Kokoda Track" -> Mogadishu
+	"Yasawa Islands" -> "Sistine Chapel"
+	"Laas Geel" -> Queenstown
+	"Sapo National Park" -> Quito
+	Cusco -> Minsk
+	"Belize Barrier Reef" -> "Guaita Tower"
+	"Lomé" -> Varadero
+	"Sepik River" -> Pohnpei
+	Libreville -> Chefchaouen
+	Mdina -> Kinshasa
+	Plovdiv -> Hargeisa
+	Rovaniemi -> "Principe Island"
+	"Ometepe Island" -> Moscow
+	"Sheikh Zayed Grand Mosque" -> "Wahiba Sands"
+	"Mount Kilimanjaro" -> "Mir Castle"
+	"Punta del Este" -> "Nevis Peak"
+	"Obo National Park" -> Banjul
+	Santiago -> Sharjah
+	"Nimule National Park" -> Bratislava
+	Robertsport -> "Abu Dhabi"
+	Babylon -> "French Riviera"
+	"Rock Islands" -> Munich
+	Reykjavik -> "Kampong Ayer"
+	"Cape Town" -> Lahore
+	Granada -> Douala
+	Cappadocia -> Berat
+	Apia -> Tunis
+	"Machu Picchu" -> Auckland
+	Funafuti -> "Sidi Bou Said"
+	Miami -> Zagreb
+	Madrid -> Kyiv
+	Lisbon -> "Vatican Museums"
+	Banfora -> Paris
+	"Red Sea Coast" -> "Tacugama Chimpanzee Sanctuary"
+	"Roatán" -> "Nanga Parbat"
+	Gdansk -> "Baikonur Cosmodrome"
+	Dubai -> Riga
+	Rotterdam -> "Milford Sound"
+	Lviv -> Khiva
+	"Espiritu Santo" -> "Andorra la Vella"
+	Bangkok -> Basseterre
+	"Etosha National Park" -> Helsinki
+	"Sao Tome" -> "Addis Ababa"
+	Baghdad -> Vancouver
+	Dubrovnik -> Amsterdam
+	Georgetown -> Libreville
+	Hargeisa -> Rabaul
+	Tarawa -> "Underwater Sculpture Park"
+	"Taroko Gorge" -> "Leptis Magna"
+	Mandalay -> Lilongwe
+	"Makgadikgadi Pans" -> Copenhagen
+	"Volcanoes National Park" -> Cebu
+	"Pamir Mountains" -> "Okavango Delta"
+	Belgrade -> Abuja
+	Bergen -> "Mount Nimba"
+	"The Hague" -> "Bikini Atoll"
+	Budva -> Bucharest
+	"Carpathian Mountains" -> Baku
+	Bathsheba -> Yogyakarta
+	Chinguetti -> Sossusvlei
+	London -> "Danube Delta"
+	"Amboseli National Park" -> "Terracotta Warriors"
+	Asmara -> Cartagena
+	Carthage -> "Wat Arun"
+	Ulaanbaatar -> Tehran
+	Uluru -> "Singapore Botanic Gardens"
+	"Lake Tanganyika" -> Jurmala
+	Ephesus -> "Chiang Mai"
+	Bujumbura -> "Malmö"
+	Boracay -> "Gobi Desert"
+	"Brest Fortress" -> Antananarivo
+	"Jellyfish Lake" -> "Jeju Island"
+	Valletta -> Taipei
+	Male -> "Gyeongbokgung Palace"
+	Matterhorn -> Lalibela
+	"South Luangwa National Park" -> "Sveti Stefan"
+	Paro -> Koror
+	Zurich -> "Mount Kilimanjaro"
+	"Lake Chad" -> Shibam
+	"Kibira National Park" -> "Dead Sea"
+	Toronto -> Persepolis
+	"Monte Carlo Casino" -> "Maracas Beach"
+	"Frigate Bay" -> "Al Hamra Tower"
+	"Arno Atoll" -> Karachi
+	Pyongyang -> Stockholm
+	"Kruger National Park" -> "Swedish Lapland"
+	Niamey -> Fes
+	"Inle Lake" -> "Panama City"
+	Bangui -> Ghent
+	"Ambergris Caye" -> Kampala
+	Nicosia -> Tromso
+	Svaneti -> "Rodney Bay"
+	Oslo -> Nassau
+	Tirana -> "Vallée de Mai"
+	Honiara -> Tartu
+	"Punta Cana" -> Robertsport
+	Bitola -> "Kuala Lumpur"
+	Brussels -> "Machu Picchu"
+	Johannesburg -> "Bahrain Fort"
+	"Burj Khalifa" -> Ljubljana
+	"Nyungwe Forest" -> "Grandvalira Ski Resort"
+	Tashkent -> Stonehenge
+	"Djenne Mosque" -> "Dubai Mall"
+	"Legoland Billund" -> Jakarta
+	"Ezulwini Valley" -> "Mount Kenya"
+	Seoul -> Samarra
+	Algarve -> Tegucigalpa
+	Riyadh -> "Galápagos Islands"
+	"Laura Beach" -> Herat
+	Punakha -> "To Sua Ocean Trench"
+	Zanzibar -> Marrakech
+	"Citadelle Laferrière" -> Kumasi
+	"Kalemegdan Fortress" -> "Lake Balaton"
+	Samarra -> Mahe
+	"Santo Domingo" -> Monrovia
+	Brasov -> "Slovak Paradise"
+	"Sentosa Island" -> Dakar
+	"Torres del Paine National Park" -> "Salar de Uyuni"
+	Jerusalem -> "Kuang Si Falls"
+	"Virunga National Park" -> "Fish River Canyon"
+	Wroclaw -> Havana
+	"Cape Coast" -> "Exuma Cays"
+	"Gorongosa National Park" -> Guadalcanal
+	Muscat -> "Lake District"
+	"Bandar Seri Begawan" -> "New York City"
+	Nizwa -> Medina
+	Colombo -> "Murchison Falls"
+	"Gutenberg Castle" -> "Tobago Cays"
+	Luanda -> Jaipur
+	Ashgabat -> "Sheikh Zayed Grand Mosque"
+	"Yankari National Park" -> Langkawi
+	Tikal -> "Sahara Desert"
+	"Tayrona National Natural Park" -> "N'Djamena"
+	Beirut -> "Sundarbans National Park"
+	Roseau -> "Marigot Bay"
+	"Sydney Opera House" -> Montevideo
+	"Hlane Royal National Park" -> "Belize Barrier Reef"
+	"Simien Mountains National Park" -> "Sal Island"
+	Hanoi -> "Krak des Chevaliers"
+	"Bwindi Impenetrable Forest" -> Jarabacoa
+	Yaren -> "Morne Trois Pitons National Park"
+	Trakai -> "Grand Anse Beach"
+	"W National Park" -> "Matka Canyon"
+	"Triglav National Park" -> "Phoenix Islands"
+	Samarkand -> "Marovo Lagoon"
+	Juba -> "Blue Grotto"
+	"Mount Karthala" -> "Kuwait Towers"
+	"Ayutthaya Historical Park" -> Palikir
+	Accra -> "Phi Phi Islands"
+	"Perito Moreno Glacier" -> "Chichen Itza"
+	"Souq Waqif" -> Bishkek
+	"Meroe Pyramids" -> "Cape Maclear"
+	Tulum -> Penang
+	Delhi -> "Kuwait City"
+	"Vatnajökull National Park" -> Chichicastenango
+	"Baa Atoll" -> Ayutthaya
+	Palawan -> Gozo
+	"Rila Monastery" -> "Paradise Island"
+	Yamoussoukro -> Bagan
+	"Giza Pyramids" -> "Banana Islands"
+	"San José" -> "Canouan Island"
+	"Ha'apai Islands" -> "Chitwan National Park"
+	Vallnord -> "Copán Ruins"
+	Limassol -> "Iwokrama Forest"
+	"Port Louis" -> "Espiritu Santo"
+	"St. Petersburg" -> "Tatev Monastery"
+	Innsbruck -> Dublin
+	"Amazon Rainforest" -> "Banff National Park"
+	"Boiling Lake" -> Praslin
+	"High Tatras" -> "Victoria Falls"
+	"Forbidden City" -> "Larvotto Beach"
+	Nis -> "La Paz"
+	Limbe -> "Mexico City"
+	Salzburg -> Freetown
+	"Blue Lagoon" -> "Bocas del Toro"
+	Windhoek -> Jacmel
+	Almaty -> "Kenting National Park"
+	"Mayan Ruins" -> Dhaka
+	Kotor -> Mostar
+	Dushanbe -> "Great Barrier Reef"
+	"Buenos Aires" -> "Yasawa Islands"
+	"Coral Coast" -> Lviv
+	"Sana'a" -> "Nuku'alofa"
+	Tripoli -> "Ala Archa National Park"
+	"Mount Paektu" -> Baalbek
+	"Dahlak Archipelago" -> "Zuma Rock"
+	"Port Moresby" -> Mecca
+	Massawa -> Babylon
+	Batumi -> "Antigua Guatemala"
+	"Tanna Island" -> "Atauro Island"
+	Caracas -> Malabo
+	Asuncion -> "Easter Island"
+	Damascus -> "Ruta de las Flores"
+	"Zakouma National Park" -> Maseru
+	Istanbul -> "Gobustan National Park"
+	"Finnish Lakeland" -> Paramaribo
+	"Christmas Island" -> Sarajevo
+	Serrekunda -> "Plitvice Lakes National Park"
+	"Ciudad del Este" -> Bamako
+	"Port Vila" -> "Mole National Park"
+	Maputo -> Krakow
+	"Jebel Shams" -> "Bazaruto Archipelago"
+	Kigali -> Byblos
+	"Český Krumlov" -> "Chobe National Park"
+	Keukenhof -> Pamukkale
+	"Los Angeles" -> "Boma National Park"
+	Sofia -> Utila
+	Islamabad -> "Ulu Temburong"
+	"Socotra Island" -> Ouagadougou
+	"The Avenues Mall" -> "Mount Titano"
+	"Maldives Atolls" -> Dili
+	Provence -> Benghazi
+	"Tel Aviv" -> Porto
+	Lucerne -> "Liwonde National Park"
+	Chuuk -> Kaesong
+	"Lake Sevan" -> "Loango National Park"
+	"Black River Gorges" -> "Lake Atitlán"
+}
